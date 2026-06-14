@@ -301,7 +301,7 @@ public class QuickChatApp {
 
         // Program keeps running until user selects Quit
         while (true) {
-
+            // quit is updated from 3 to 4
             System.out.println("1) Send Messages");
             System.out.println("2) Show recently sent messages");
             System.out.println("3) Stored Messages");
