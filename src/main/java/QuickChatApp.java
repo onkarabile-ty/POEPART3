@@ -404,7 +404,7 @@ public class QuickChatApp {
         }
     }
 
-    // Quit moves from Case 3 to Case 4
+    
     case 4 -> {
 
         System.out.println("\nApplication closed.");
@@ -515,11 +515,9 @@ public class Part3Features {
 
             if (msg.getMessageID().equals(id)) {
 
-                System.out.println("Recipient: "
-                        + msg.getRecipient());
+                System.out.println("Recipient: "+ msg.getRecipient());
 
-                System.out.println("Message: "
-                        + msg.getMessage());
+                System.out.println("Message: "+ msg.getMessage());
 
                 return;
             }
@@ -529,11 +527,9 @@ public class Part3Features {
 
             if (msg.getMessageID().equals(id)) {
 
-                System.out.println("Recipient: "
-                        + msg.getRecipient());
+                System.out.println("Recipient: "+ msg.getRecipient());
 
-                System.out.println("Message: "
-                        + msg.getMessage());
+                System.out.println("Message: "+ msg.getMessage());
 
                 return;
             }
@@ -621,8 +617,7 @@ public class Part3Features {
                             + msg.getMessageHash());
 
             System.out.println(
-                    "Recipient: "
-                            + msg.getRecipient());
+                    "Recipient: "+ msg.getRecipient());
 
             System.out.println(
                     "Message: "
@@ -633,16 +628,13 @@ public class Part3Features {
 
             System.out.println("--------------------------");
             System.out.println(
-                    "Message Hash: "
-                            + msg.getMessageHash());
+                    "Message Hash: "+ msg.getMessageHash());
 
             System.out.println(
-                    "Recipient: "
-                            + msg.getRecipient());
+                    "Recipient: "+ msg.getRecipient());
 
             System.out.println(
-                    "Message: "
-                            + msg.getMessage());
+                    "Message: "+ msg.getMessage());
         }
     }
 }
